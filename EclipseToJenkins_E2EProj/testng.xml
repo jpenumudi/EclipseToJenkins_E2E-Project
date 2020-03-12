@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Etsy Suite" thread-count = "5" verbose = "1" parallel="tests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="etsyTests.CraftSuppliesTest"/>
+      <class name="etsyTests.SigninPageTest"/>
+      <class name="etsyTests.HomePageTest"/>
+      <class name="etsyTests.RegisterPageTest"/>
+      <class name="etsyTests.HomeNLivingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

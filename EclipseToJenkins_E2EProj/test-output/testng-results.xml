@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Etsy Suite" duration-ms="294937" started-at="2020-03-12T22:05:58Z" finished-at="2020-03-12T22:10:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="294937" started-at="2020-03-12T22:05:58Z" finished-at="2020-03-12T22:10:52Z">
+      <class name="etsyTests.SigninPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="setup" is-config="true" duration-ms="10996" started-at="2020-03-12T22:05:58Z" finished-at="2020-03-12T22:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="LoginTest" duration-ms="1279" started-at="2020-03-12T22:06:09Z" finished-at="2020-03-12T22:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="teardown" is-config="true" duration-ms="728" started-at="2020-03-12T22:06:10Z" finished-at="2020-03-12T22:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="setup" is-config="true" duration-ms="9598" started-at="2020-03-12T22:06:31Z" finished-at="2020-03-12T22:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RegisterBtnTest()[pri:1, instance:etsyTests.SigninPageTest@5622fdf]" name="RegisterBtnTest" duration-ms="682" started-at="2020-03-12T22:06:40Z" finished-at="2020-03-12T22:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterBtnTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="teardown" is-config="true" duration-ms="1051" started-at="2020-03-12T22:06:41Z" finished-at="2020-03-12T22:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="setup" is-config="true" duration-ms="8965" started-at="2020-03-12T22:07:44Z" finished-at="2020-03-12T22:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Forgot_pwd_test()[pri:2, instance:etsyTests.SigninPageTest@5622fdf]" name="Forgot_pwd_test" duration-ms="6496" started-at="2020-03-12T22:07:53Z" finished-at="2020-03-12T22:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot_pwd_test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.SigninPageTest@5622fdf]" name="teardown" is-config="true" duration-ms="731" started-at="2020-03-12T22:07:59Z" finished-at="2020-03-12T22:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- etsyTests.SigninPageTest -->
+      <class name="etsyTests.RegisterPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="9687" started-at="2020-03-12T22:06:51Z" finished-at="2020-03-12T22:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RegisterHeading()[pri:1, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="RegisterHeading" duration-ms="2937" started-at="2020-03-12T22:07:01Z" finished-at="2020-03-12T22:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterHeading -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="teardown" is-config="true" duration-ms="774" started-at="2020-03-12T22:07:04Z" finished-at="2020-03-12T22:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="10982" started-at="2020-03-12T22:08:14Z" finished-at="2020-03-12T22:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateTermsofuseLink()[pri:2, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="ValidateTermsofuseLink" duration-ms="5586" started-at="2020-03-12T22:08:25Z" finished-at="2020-03-12T22:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTermsofuseLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="teardown" is-config="true" duration-ms="1226" started-at="2020-03-12T22:08:30Z" finished-at="2020-03-12T22:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="7534" started-at="2020-03-12T22:09:34Z" finished-at="2020-03-12T22:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createaccount()[pri:3, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="createaccount" duration-ms="1632" started-at="2020-03-12T22:09:41Z" finished-at="2020-03-12T22:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.RegisterPageTest@7d9d1a19]" name="teardown" is-config="true" duration-ms="785" started-at="2020-03-12T22:09:43Z" finished-at="2020-03-12T22:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- etsyTests.RegisterPageTest -->
+      <class name="etsyTests.CraftSuppliesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="setup" is-config="true" duration-ms="12203" started-at="2020-03-12T22:06:11Z" finished-at="2020-03-12T22:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ShowMoreTest()[pri:1, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="ShowMoreTest" duration-ms="6485" started-at="2020-03-12T22:06:23Z" finished-at="2020-03-12T22:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowMoreTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="teardown" is-config="true" duration-ms="1322" started-at="2020-03-12T22:06:29Z" finished-at="2020-03-12T22:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="setup" is-config="true" duration-ms="13184" started-at="2020-03-12T22:07:20Z" finished-at="2020-03-12T22:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckBoxTest()[pri:2, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="CheckBoxTest" duration-ms="9683" started-at="2020-03-12T22:07:33Z" finished-at="2020-03-12T22:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBoxTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="teardown" is-config="true" duration-ms="741" started-at="2020-03-12T22:07:43Z" finished-at="2020-03-12T22:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="setup" is-config="true" duration-ms="9632" started-at="2020-03-12T22:08:53Z" finished-at="2020-03-12T22:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RadioButtonTest()[pri:3, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="RadioButtonTest" duration-ms="11922" started-at="2020-03-12T22:09:02Z" finished-at="2020-03-12T22:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtonTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="teardown" is-config="true" duration-ms="957" started-at="2020-03-12T22:09:14Z" finished-at="2020-03-12T22:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="setup" is-config="true" duration-ms="11174" started-at="2020-03-12T22:10:07Z" finished-at="2020-03-12T22:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="locationTest()[pri:4, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="locationTest" duration-ms="9569" started-at="2020-03-12T22:10:18Z" finished-at="2020-03-12T22:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.CraftSuppliesTest@6093dd95]" name="teardown" is-config="true" duration-ms="907" started-at="2020-03-12T22:10:28Z" finished-at="2020-03-12T22:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- etsyTests.CraftSuppliesTest -->
+      <class name="etsyTests.HomeNLivingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="setup" is-config="true" duration-ms="10001" started-at="2020-03-12T22:07:05Z" finished-at="2020-03-12T22:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Titletest()[pri:1, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="Titletest" duration-ms="4116" started-at="2020-03-12T22:07:15Z" finished-at="2020-03-12T22:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Titletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="teardown" is-config="true" duration-ms="1460" started-at="2020-03-12T22:07:19Z" finished-at="2020-03-12T22:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="setup" is-config="true" duration-ms="13144" started-at="2020-03-12T22:08:32Z" finished-at="2020-03-12T22:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SigninOptionTest()[pri:2, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="SigninOptionTest" duration-ms="7054" started-at="2020-03-12T22:08:45Z" finished-at="2020-03-12T22:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninOptionTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="teardown" is-config="true" duration-ms="793" started-at="2020-03-12T22:08:52Z" finished-at="2020-03-12T22:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="setup" is-config="true" duration-ms="11653" started-at="2020-03-12T22:09:44Z" finished-at="2020-03-12T22:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SortByTest()[pri:3, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="SortByTest" duration-ms="10777" started-at="2020-03-12T22:09:55Z" finished-at="2020-03-12T22:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortByTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="teardown" is-config="true" duration-ms="795" started-at="2020-03-12T22:10:06Z" finished-at="2020-03-12T22:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="setup" is-config="true" duration-ms="13889" started-at="2020-03-12T22:10:29Z" finished-at="2020-03-12T22:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateUrl()[pri:4, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="ValidateUrl" duration-ms="9143" started-at="2020-03-12T22:10:43Z" finished-at="2020-03-12T22:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUrl -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomeNLivingTest@39c0f4a]" name="teardown" is-config="true" duration-ms="756" started-at="2020-03-12T22:10:52Z" finished-at="2020-03-12T22:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- etsyTests.HomeNLivingTest -->
+      <class name="etsyTests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomePageTest@4883b407]" name="setup" is-config="true" duration-ms="8285" started-at="2020-03-12T22:06:42Z" finished-at="2020-03-12T22:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TitleTest()[pri:1, instance:etsyTests.HomePageTest@4883b407]" name="TitleTest" duration-ms="19" started-at="2020-03-12T22:06:50Z" finished-at="2020-03-12T22:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomePageTest@4883b407]" name="teardown" is-config="true" duration-ms="973" started-at="2020-03-12T22:06:50Z" finished-at="2020-03-12T22:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomePageTest@4883b407]" name="setup" is-config="true" duration-ms="12885" started-at="2020-03-12T22:08:00Z" finished-at="2020-03-12T22:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SigninoptionTest()[pri:2, instance:etsyTests.HomePageTest@4883b407]" name="SigninoptionTest" duration-ms="74" started-at="2020-03-12T22:08:13Z" finished-at="2020-03-12T22:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninoptionTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomePageTest@4883b407]" name="teardown" is-config="true" duration-ms="815" started-at="2020-03-12T22:08:13Z" finished-at="2020-03-12T22:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:etsyTests.HomePageTest@4883b407]" name="setup" is-config="true" duration-ms="13610" started-at="2020-03-12T22:09:15Z" finished-at="2020-03-12T22:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchTest()[pri:3, instance:etsyTests.HomePageTest@4883b407]" name="SearchTest" duration-ms="4329" started-at="2020-03-12T22:09:29Z" finished-at="2020-03-12T22:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:etsyTests.HomePageTest@4883b407]" name="teardown" is-config="true" duration-ms="815" started-at="2020-03-12T22:09:33Z" finished-at="2020-03-12T22:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- etsyTests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Etsy Suite -->
+</testng-results>
