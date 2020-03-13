@@ -54,7 +54,7 @@ public class HomeNLivingTest extends TestBaseClass{
 	}
 	
 	@Test(priority=4)
-	public void ValidateUrl() throws InterruptedException
+	public void ValidateUrlTest() throws InterruptedException
 	{
 		String url = hmnlvng.validateTopReviewUrl();
 		Assert.assertEquals(url, "https://www.etsy.com/c/home-and-living?explicit=1&order=highest_reviews");	
