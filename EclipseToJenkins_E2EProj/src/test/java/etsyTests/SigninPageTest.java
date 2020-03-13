@@ -31,28 +31,28 @@ public class SigninPageTest extends TestBaseClass{
 		
 	}
 	
-	@Test(priority=1)
+	@Test(priority=4)
 	public void RegisterBtnTest()
 	{
 		boolean result = signin.validateregisterbtn();
 		Assert.assertTrue(result);
-		System.out.println("Validated the presence of register button");
+		System.out.println("SigninPageTest: 1 - Validated the presence of register button");
 	}  
 	
-	@Test(priority=2)
+	@Test(priority=5)
 	public void Forgot_pwd_test()	{
 		signin.ValidateForgtoPwdLink();
 		
-		System.out.println("Validated forgot password link");
+		System.out.println("SigninPageTest: 2 - Validated forgot password link");
 	}
 	
-	@Test //(priority=3)
+	@Test(priority=6)
 	public void LoginTest()
 	{
 		homepg = signin.login(prop.getProperty("email"), prop.getProperty("password"));
 		
-		System.out.println("Logged into etsy.com site and navigated to the home page");
-		System.out.println("This test was triggered from Jenkins");
+		System.out.println("SigninPageTest: 3 - Logged into etsy.com site and navigated to the home page");
+		
 	}
 	@AfterMethod
 	public void teardown()

@@ -29,36 +29,36 @@ public class HomeNLivingTest extends TestBaseClass{
 		hmnlvng = new HomeNLiving();	
 	}
 	
-	@Test(priority=1)
-	public void Titletest()
+	@Test(priority=10)
+	public void HNLTitletest()
 	{
 		String title = hmnlvng.ValidateHomeNLvngTitle();
 		Assert.assertEquals(title, "Home & Living | Etsy");
-		System.out.println("Validated the HomeNLiving Title");
+		System.out.println("HomeNLivingTest: 1 - Validated HomeNLiving Title");
 	}
 	
-	@Test(priority=2)
-	public void SigninOptionTest()
+	@Test(priority=11)
+	public void HNLSigninOptionTest()
 	{
 		boolean present = hmnlvng.validatesigninoption();
 		Assert.assertTrue(present);
-		System.out.println("Validated the presence of signin option");
+		System.out.println("HomeNLivingTest: 2 - Validated the presence of signin option");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=12)
 	public void SortByTest() throws InterruptedException
 	{
 		Thread.sleep(2000);
 		hmnlvng.SortByList(prop.getProperty("list")); 
-		System.out.println("Validated Sort By dropdown");
+		System.out.println("HomeNLivingTest: 3 - Validated Sort By dropdown");
 	}
 	
-	@Test(priority=4)
-	public void ValidateUrlTest() throws InterruptedException
+	@Test(priority=13)
+	public void UrlTest() throws InterruptedException
 	{
 		String url = hmnlvng.validateTopReviewUrl();
 		Assert.assertEquals(url, "https://www.etsy.com/c/home-and-living?explicit=1&order=highest_reviews");	
-		System.out.println("Validated Top reviews url");
+		System.out.println("HomeNLivingTest: 4 - Validated Top reviews url");
 	}
 	
 	@AfterMethod

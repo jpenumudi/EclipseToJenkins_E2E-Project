@@ -30,28 +30,28 @@ public class HomePageTest extends TestBaseClass{
 		hmpg = new Homepage();	
 	}
 	
-	@Test(priority=1)
-	public void TitleTest()
+	@Test(priority=7)
+	public void HmPg_TitleTest()
 	{
 		String title = hmpg.ValidateHomePageTitle();
 		Assert.assertEquals(title, "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone");	
-		System.out.println("Validated Home page title");
-		System.out.println("This test was triggered from Jenkins");
+		System.out.println("HomePageTest: 1 - Validated Home page title");
+
 	}
 	
-	@Test(priority=2)
-	public void SigninoptionTest()
+	@Test(priority=8)
+	public void Hmpg_SigninoptionTest()
 	{
 		boolean present = hmpg.validatesigninoption();
 		Assert.assertTrue(present);
-		System.out.println("Validated the presence of signin option in home page");
+		System.out.println("HomePageTest: 2 - Validated the presence of signin option in home page");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=9)
 	public void SearchTest()
 	{
 		hmpg.ValidateSearch(prop.getProperty("searchfor"));
-		System.out.println("Validated search for functionality");
+		System.out.println("HomePageTest: 3 - Validated search for functionality");
 	}
 	
 	@AfterMethod

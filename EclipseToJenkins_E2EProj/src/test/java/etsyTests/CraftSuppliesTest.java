@@ -28,35 +28,35 @@ public class CraftSuppliesTest extends TestBaseClass {
 		 craftsup = new CraftSupplies();		
 	}
 	
-	@Test(priority=1) 
+	@Test(priority=14)
 	public void ShowMoreTest() throws InterruptedException
 	{
 		Thread.sleep(2000);
 		craftsup.ValidateShowMore();
-		System.out.println("Validated Show more link");
+		System.out.println("CraftSuppliesTest: 1 - Validated Show more link");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=15)
 	public void CheckBoxTest() throws InterruptedException
 	{
 		Thread.sleep(2000);
 		craftsup.ValidateCheckBox();
-		System.out.println("Validated check box");
+		System.out.println("CraftSuppliesTest: 2 - Validated check box");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=16)
 	public void RadioButtonTest() throws InterruptedException
 	{
 		Thread.sleep(2000);
 		craftsup.ValidateRadioButton();
-		System.out.println("Validated Radio Button");
+		System.out.println("CraftSuppliesTest: 3 - Validated Radio Button");
 	}
 	
-	@Test(priority=4)
+	@Test(priority=17)
 	public void locationTest()
 	{
 		craftsup.ValidateTextBox(prop.getProperty("location"));
-		System.out.println("Validation Custom location field");
+		System.out.println("CraftSuppliesTest: 4 - Validation Custom location field");
 	}
 	
 	@AfterMethod

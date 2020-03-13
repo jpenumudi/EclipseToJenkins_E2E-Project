@@ -31,36 +31,37 @@ public class RegisterPageTest extends TestBaseClass {
 	}
 	
 	@Test(priority=1)
-	public void RegisterHeading() throws InterruptedException
+	public void RegisterHeadingTest() throws InterruptedException
 	{
 		Thread.sleep(2000);
 		String heading = regstr.ValidateHeading();
 		Assert.assertEquals(heading, "Create your account");
-		System.out.println("Validated heading on the register page");
+		System.out.println("RegisterPageTest: 1- Validated heading on the register page");
 	}
 	
 	
-	@Test(priority=2) 
-	public void ValidateTermsofuseLink()
+	@Test(priority=2)
+	public void TermsofuseLinkTest()
 	{
 		regstr.ValidateTermsLink();	
-		System.out.println("Validated Terms of Use link");
+		System.out.println("RegisterPageTest: 2 - Validated Terms of Use link");
 	}
 	
 	
 	@Test(priority=3)
-	public void createaccount()
+	public void createaccountTest()
 	{
 		// createaccount method is returning object of homepage class. so the result of right hand side can be stored in the homepg 
 		// reference variable. 
 		
 		homepg = regstr.createaccount(prop.getProperty("email"), prop.getProperty("firstname"), prop.getProperty("password"));
-		System.out.println("Created an account successfully");
+		System.out.println("RegisterPageTest: 3 - Created an account successfully");
 	}  
 		
 	@AfterMethod
 	public void teardown()
 	{
-		driver.quit();	}
+		driver.quit();	
+	}
 
 }
