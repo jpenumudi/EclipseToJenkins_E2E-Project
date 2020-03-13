@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Etsy Suite">
-<!--<suite name="Etsy Suite" thread-count = "5" verbose = "1" parallel="tests">-->
-  <test  name="Test">
-<!--  <test thread-count="5" name="Test">  -->
+<!--<suite name="Etsy Suite">-->
+<suite name="Etsy Suite" thread-count = "5" verbose = "1" parallel="tests">
+<!-- <test  name="Test"> -->
+ <test thread-count="5" name="E2E_EclipsetoJenkins">  
     <classes>
       <class name="etsyTests.CraftSuppliesTest"/>
       <class name="etsyTests.SigninPageTest"/>
@@ -13,6 +13,5 @@
     </classes>
   </test> <!-- Test -->
 </suite> 
-
 
 
